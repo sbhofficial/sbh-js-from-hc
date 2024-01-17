@@ -32,7 +32,46 @@
 let newNumber = 11;
 let stringNumber = String(newNumber);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
 
 // string() will convert number to string type
+
+
+/* ===== Operations ===== */
+
+let numberr = 10
+let negetiveNumber = -numberr
+// console.log(negetiveNumber);
+
+// Basic Math operations.
+// console.log(5+5);
+// console.log(5-5);
+// console.log(5/5);
+// console.log(5%5);
+// console.log(5*5);
+// console.log(5**5);
+
+
+// Tricky 
+// let string1 = "SBH"
+// let string2 = " Official"
+// console.log(string1 + string2);
+
+// console.log(7 + "7");
+// console.log("7" + 7);
+// console.log("7" + 7 + 7);
+// console.log(7 + 7 + "7");
+
+//console.log(7 + 7 / 7 * 7); // code is right not valid code, messy code, bad practice, confusing code, not readable properly.
+
+// below code is messy code, no sense, bad practice, confusing code, not readable properly, not preferable.
+// console.log(+true); 
+// console.log(true+);
+// console.log(+"");
+// let numbr1,numbr2,numbr3
+// numbr1 = numbr2 = numbr3 = 7 + 7
+
+let gameCounter = 111
+gameCounter++
+console.log(gameCounter);
